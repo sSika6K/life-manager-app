@@ -1,16 +1,48 @@
-# life_manager_app
+# 📱 Life Manager
 
-A new Flutter project.
+Application de gestion de vie (séances de sport, tâches, suivi) développée avec **Flutter**.
 
-## Getting Started
+## 🚀 Plateformes supportées
 
-This project is a starting point for a Flutter application.
+| Plateforme | Statut       |
+|-----------|--------------|
+| Android   | ✅ Binaire APK dispo dans les releases |
+| Windows   | ✅ Binaire ZIP dispo dans les releases |
+| iOS       | ❌ Non disponible (nécessite un Mac / compte Apple) |
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📥 Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🤖 Android
+
+1. Va dans l’onglet **Releases** du repo GitHub.
+2. Télécharge le fichier `app-arm64-v8a-release.apk` (pour la plupart des téléphones récents).
+3. Ouvre le fichier sur ton téléphone.
+4. Si Android bloque, autorise l’**installation depuis des sources inconnues** pour ton navigateur ou ton gestionnaire de fichiers.
+5. L’app apparaît ensuite dans ton launcher.
+
+### 💻 Windows
+
+1. Va dans l’onglet **Releases** du repo GitHub.
+2. Télécharge `life_manager_windows.zip`.
+3. Décompresse le ZIP.
+4. Lance `life_manager_app.exe`.
+5. Si SmartScreen affiche un avertissement, clique sur **Informations complémentaires** → **Exécuter quand même**.
+
+---
+
+## 🧩 Fonctionnalités principales
+
+- 💪 Gestion de **séances de sport** avec exercices, séries, répétitions et temps de repos.
+- 📊 Visualisation de la **progression** (poids utilisés, séries restantes, etc.).
+- ✅ Gestion de **tâches** avec état (complétée / incomplète).
+- 🔔 **Notifications de rappel** pour les tâches avant leur échéance.
+- 🎨 Thème visuel personnalisé, nom et icône d’app configurables.
+
+---
+
+## 🛠️ Lancer le projet en local
+
+Pré-requis : Flutter SDK installé, Android Studio ou VS Code configuré.
+
