@@ -1,16 +1,20 @@
-# life_manager_app
+## 📱 Installation
 
-A new Flutter project.
+### Android
+1. Télécharge le fichier correspondant à ton téléphone :
+   - `app-arm64-v8a-release.apk` (99% des téléphones récents)
+   - `app-armeabi-v7a-release.apk` (téléphones plus anciens)
+   - `app-x86_64-release.apk` (émulateurs)
+2. Ouvre le fichier et autorise l'installation
 
-## Getting Started
+### Windows
+1. Télécharge `life_manager_windows.zip`
+2. Extrais le ZIP
+3. Lance `life_manager_app.exe`
 
-This project is a starting point for a Flutter application.
+### iOS (nécessite Mac + certificat développeur)
+Contacte-moi pour une version TestFlight
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚠️ Sécurité
+Cette app n'est pas signée par Google Play / Windows Store.
+Autorise l'installation depuis des sources inconnues.
